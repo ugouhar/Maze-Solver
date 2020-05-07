@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="style.css">
+   <title>Document</title>
+</head>
+
+<body>
+   <button onclick="Solve.solveMaze()">Solve</button><br />
+   <button onclick="resetAll()">Reset</button><br />
+   <div id="status">Select Source</div>
+
+
+   <img src="images/image3.jpg" id="myImg" />
+   <canvas class="canv" id="imageCanvas"></canvas>
+   <canvas class="canv" id="processedCanvas"></canvas>
+
+   <table id="maze" border="0" bordercolor="black" cellspacing="0">
+   </table>
+   <script src="scripts/CreateMaze.js"></script>
+   <script src="scripts/ImageProcessing.js"></script>
+   <script src="scripts/solveMaze.js"></script>
+   <script src="scripts/main.js"></script>
+</body>
+
+</html>

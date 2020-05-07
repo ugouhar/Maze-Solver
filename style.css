@@ -1,0 +1,32 @@
+.canv {
+  border: 1px solid black;
+}
+#myImg {
+  display: none;
+  width: 500px;
+  height: 500px;
+}
+#imageCanvas {
+  display: none;
+}
+
+#maze {
+  position: absolute;
+  top: 80px;
+  left: 10px;
+}
+#processedCanvas {
+  position: absolute;
+  top: 80px;
+  left: 10px;
+  display: block;
+}
+#status {
+  background-color: bisque;
+  width: 150px;
+  height: 20px;
+  padding: 1px;
+  margin: 2px;
+  font-style: italic;
+  font-weight: bold;
+}
